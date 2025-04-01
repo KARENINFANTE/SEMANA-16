@@ -1,0 +1,8 @@
+# Abro el archivo en modo escritura ('w')
+with open('my_notes.txt', 'w') as file:
+    # Escribo mis notas personales
+    file.write("1. Comprar leche y pan para el desayuno.\n")
+    file.write("2. Llamar al médico para pedir cita.\n")
+    file.write("3. Terminar el proyecto de Python antes del viernes.\n")
+    
+# El archivo se cierra automáticamente al salir del bloque 'with'
